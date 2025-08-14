@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Claude Wider View
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Jesai
+==/UserStyle== */
+
+@-moz-document domain("claude.ai") {
+  /* find the container with the max-width restriction */
+  .max-w-3xl {
+    /* and give it a new, much wider max-width (yay) */
+    max-width: 90% !important;
+  }
+}
