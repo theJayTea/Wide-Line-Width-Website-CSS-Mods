@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name           Gemini Website Wider View
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Jesai
+==/UserStyle== */
+
+@-moz-document domain("gemini.google.com") {
+  /* first widen the main chat history area */
+  .conversation-container {
+    max-width: 90% !important;
+  }
+
+  /* then widen the prompt input area at the bottom */
+  .input-area {
+    max-width: 90% !important;
+  }
+  
+  /* annd finally that response container itself */
+  .response-container-content {
+      max-width: 100% !important;
+  }
+}
