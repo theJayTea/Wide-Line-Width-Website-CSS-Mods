@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           ChatGPT Wider View
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Jesai
+==/UserStyle== */
+
+@-moz-document domain("chatgpt.com") {
+  /* target the element that sets the max-width CSS variable */
+  div[class*="--thread-content-max-width"] {
+    /* annd simply overriding the variable's value... */
+    --thread-content-max-width: 90% !important;
+  }
+}
